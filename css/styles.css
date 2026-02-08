@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    padding: 75px 0px;
+    font-family: 'Sour Gummy', fallback;
+    background: linear-gradient(white,#A7C7E7);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 14px 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color:white;
+    border: 1px solid;
+    border-color: black;
+    font-family: 'Sour Gummy', fallback;
+    
+}
+
+button:hover {
+    scale: 1.05;
+}
+
+#yes {
+  background-color: green;
+  transform-origin: center;
+  max-width: 200px;
+}
+
+
+#no {
+    background-color: red;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.container {
+  max-width: 100%;
+  margin: 20px auto 0 auto;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 50px auto;
+}
+
